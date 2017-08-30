@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "6.0"
   s.source = { :http => "http://shared.koppasoft.com/repictur/SDK/iOS/v#{s.version}/repictur-ios-sdk-v#{s.version}.zip" }
   s.ios.frameworks = 'UIKit', 'Foundation'
-  s.ios.vendored_frameworks = "Framework/rePictuR.framework"
+  s.ios.vendored_frameworks = "rePictuR/Framework/rePictuR.framework"
   s.requires_arc = true
 end
