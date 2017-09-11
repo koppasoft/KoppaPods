@@ -7,10 +7,10 @@ Pod::Spec.new do |s|
   s.author = {
     'KoppaSoft' => 'contact@koppasoft.com'
   }
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '6.0'
   s.tvos.deployment_target = '9.0'
-  s.source = { :http => "http://shared.koppasoft.com/repictur/SDK/iOS/rePictuR-ios-SDK-v#{s.version}.zip" }
-  s.ios.frameworks = 'UIKit', 'Foundation'
-  s.ios.vendored_frameworks = "Framework/rePictuR.framework"
+  s.source = { :http://shared.koppasoft.com/repictur/SDK/iOS/rePictuR-ios-SDK-v#{s.version}.zip" }
+  s.frameworks = 'UIKit', 'Foundation'
+  s.vendored_frameworks = "rePictuR-ios-SDK-v#{s.version}/Framework/rePictuR.framework"
   s.requires_arc = true
 end
