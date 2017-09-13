@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "rePictuR"
-  s.version      = "0.5.0"
+  s.version      = "0.5"
   s.summary      = "rePICTUR is a fast, powerfull image manipulating service built for hi-volume mobile applications."
   s.homepage     = "https://github.com/koppasoft/rePictuR-ios"
   s.license      = "© Copyright 2016-2017 - KoppaSoft SAS (http://www.koppasoft.com)"
