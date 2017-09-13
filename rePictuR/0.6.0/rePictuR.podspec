@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = '9.0'
   s.source = { :http => "http://shared.koppasoft.com/repictur/SDK/iOS/rePictuR-ios-SDK-v#{s.version}.zip" }
   s.frameworks = 'UIKit', 'Foundation'
-  s.vendored_frameworks = "rePictuR-ios-SDK-v#{s.version}/Framework/rePictuR.framework"
+  s.vendored_frameworks = "Framework/rePictuR.framework"
   s.requires_arc = true
 end
